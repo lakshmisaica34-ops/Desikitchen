@@ -1,0 +1,10 @@
+<resources>
+    <!-- Android 12+ system splash: white canvas + the black D launcher icon on white (instead of a blank cream window). -->
+    <style name="Theme.DesiKitchen" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_window</item>
+        <item name="android:windowSplashScreenBackground">@color/canvas</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

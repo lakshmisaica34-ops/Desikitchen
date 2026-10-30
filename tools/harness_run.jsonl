@@ -1,0 +1,34 @@
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "public_html", "pass": true, "http": 200, "bytes": 738577}
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "jsonld_recipe", "pass": true, "ingredients": 22, "steps": 30, "title": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa"}
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.2}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "mushroom butter rice 🍚🧈 full recipe below @cuchenusainc ingredients - 1 cup jasm…", "has_video": true}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "caption_parse", "pass": true, "ingredients": 8, "steps": 4}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.3}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "bookmark this vegan ONE-POT CREAMY MUSHROOM RICE 🍚✨follow @healthygirlkitchen fo…", "has_video": false}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "caption_parse", "pass": true, "ingredients": 11, "steps": 6}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.3}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "ig_embed", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": false}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": true, "credits_remaining": 860}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "caption_parse(creators)", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "scrapecreators_ig_transcript", "pass": true, "http": 200, "chars": 1715, "credits_remaining": 859}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "openrouter_text", "pass": true, "http": 200, "ingredients": 15, "steps": 7}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "RESULT", "pass": true, "result": "PARTIAL(AI caption+transcript)", "seconds": 16.9}
+{"url": "search:paneer recipe ingredients", "stage": "scrapecreators_reels_search", "pass": true, "http": 200, "results": 10, "credits_remaining": 858}
+{"url": "https://www.instagram.com/reel/DYWUyTmJsw3/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "15 minutes Malai Paneer Recipe 😍⬇️ Ingredients:- * 2 tspn desi ghee * 1 tspn jee…", "has_video": false}
+{"url": "https://www.instagram.com/reel/DYWUyTmJsw3/", "stage": "caption_parse", "pass": true, "ingredients": 12, "steps": 0}
+{"url": "https://www.instagram.com/reel/DYWUyTmJsw3/", "stage": "RESULT", "pass": true, "result": "PARTIAL", "seconds": 0.4}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "ig_embed", "pass": false, "http": 200, "has_video": false}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "ig_post_og", "pass": false, "http": 200}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "scrapecreators_post", "pass": false, "http": 404, "error": "{\"success\": false, \"credits_remaining\": 858, \"credits_charged\": 0, \"error\": \"not_found\", \"errorStatus\": 404, \"message\": \"Post not found\"}", "has_video": false, "credits_remaining": 858}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "scrapecreators_ig_transcript", "pass": false, "http": 404, "chars": 0, "credits_remaining": 858, "error": "Shoot, post does not have a video"}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "openrouter_video", "pass": false, "error": "no video URL"}
+{"url": "https://www.instagram.com/reel/DAbCdEfGhIj/", "stage": "RESULT", "pass": false, "result": "FAIL", "seconds": 4.6}
+{"url": "https://www.youtube.com/shorts/ETGWelKhgfc", "stage": "oembed", "pass": true, "http": 200, "caption": "Instant Curd Set Dosa | Soft & Spongy Dosa Without Fermentation | Quick Breakfas…"}
+{"url": "https://www.youtube.com/shorts/ETGWelKhgfc", "stage": "yt_watch_desc", "pass": true, "http": 200, "caption": "Full Recipe: https://hebbarskitchen.com/sponge-dosa-recipe-curd-dosa-set-dosa/ @…"}
+{"url": "https://www.youtube.com/shorts/ETGWelKhgfc", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.youtube.com/shorts/ETGWelKhgfc", "stage": "desc_recipe_link", "pass": true, "link": "https://hebbarskitchen.com/sponge-dosa-recipe-curd-dosa-set-dosa/"}
+{"url": "https://hebbarskitchen.com/sponge-dosa-recipe-curd-dosa-set-dosa/", "stage": "public_html", "pass": true, "http": 200, "bytes": 670647}
+{"url": "https://hebbarskitchen.com/sponge-dosa-recipe-curd-dosa-set-dosa/", "stage": "jsonld_recipe", "pass": true, "ingredients": 6, "steps": 12, "title": "Curd Dosa Recipe | Instant Soft & Sponge Dosa"}
+{"url": "https://www.youtube.com/shorts/ETGWelKhgfc", "stage": "RESULT", "pass": true, "result": "FULL(via desc link)", "seconds": 1.7}

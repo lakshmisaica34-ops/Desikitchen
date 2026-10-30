@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DesiKitchen avatar — rig playground</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #0b0b0b; color: #ddd; font: 14px/1.4 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+         display: grid; grid-template-columns: minmax(320px, 640px) 300px; gap: 28px; justify-content: center; padding: 28px; }
+  #stage { width: 100%; aspect-ratio: 1; background: #000; border-radius: 28px; display: block; }
+  aside h1 { font-size: 16px; margin: 0 0 4px; color: #fff; }
+  aside p { margin: 0 0 16px; color: #888; font-size: 12px; }
+  .row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+  button { background: #1b1b1b; color: #eee; border: 1px solid #333; border-radius: 999px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  button:hover { border-color: #666; }
+  button.on { background: #fff; color: #000; border-color: #fff; }
+  label { display: flex; align-items: center; gap: 8px; margin: 6px 0; color: #bbb; cursor: pointer; }
+  .sizes { display: flex; align-items: end; gap: 14px; margin-top: 18px; }
+  .sizes svg { background: #000; border-radius: 22%; display: block; }
+  .sizes figure { margin: 0; text-align: center; font-size: 11px; color: #777; }
+  kbd { background: #222; border: 1px solid #444; border-bottom-width: 2px; border-radius: 4px; padding: 0 5px; font-size: 11px; }
+  #readout { font: 11px ui-monospace, monospace; color: #666; white-space: pre; margin-top: 12px; }
+  @media (max-width: 900px) { body { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<svg id="stage" viewBox="424 216 600 600" aria-label="DesiKitchen avatar">
+  <image id="onion" href="desikitchen-mark-final.png" x="0" y="0" width="1448" height="1086" opacity="0" style="pointer-events:none"/>
+  <g id="body">
+    <path id="hat" fill="#fff"/>
+    <g id="grooves" fill="none" stroke="#000" stroke-linecap="round">
+      <path id="groove-l"/><path id="groove-r"/>
+    </g>
+    <path id="eye-l" fill="#fff"/>
+    <path id="eye-r" fill="#fff"/>
+  </g>
+</svg>
+
+<aside>
+  <h1>DesiKitchen avatar rig</h1>
+  <p>Procedural, Grok-style: generated hat path + two independent window-eyes, spring-driven. Flat vector only.</p>
+  <div class="row" id="states">
+    <button data-state="idle" class="on">Idle <kbd>1</kbd></button>
+    <button data-state="wink">Wink <kbd>2</kbd></button>
+    <button data-state="thinking">Thinking <kbd>3</kbd></button>
+    <button data-state="happy">Happy <kbd>4</kbd></button>
+    <button id="blink">Blink <kbd>B</kbd></button>
+  </div>
+  <label><input type="checkbox" id="auto" checked> Auto gaze drift + blinks</label>
+  <label><input type="checkbox" id="follow"> Eyes follow pointer</label>
+  <label><input type="checkbox" id="tilt"> Grok 26° eye tilt (off = brand-accurate upright windows)</label>
+  <label><input type="checkbox" id="slow"> Slow-mo ×0.25</label>
+  <label><input type="checkbox" id="onionT"> Onion-skin locked PNG (trace check)</label>
+  <div class="sizes">
+    <figure><svg width="192" height="192" viewBox="424 216 600 600"><use href="#body"/></svg>192</figure>
+    <figure><svg width="96" height="96" viewBox="424 216 600 600"><use href="#body"/></svg>96</figure>
+    <figure><svg width="48" height="48" viewBox="424 216 600 600"><use href="#body"/></svg>48</figure>
+  </div>
+  <div id="readout"></div>
+</aside>
+
+<script src="desikitchen-avatar-core.js"></script>
+<script>
+(() => {
+  const A = window.DKAvatar;
+  const rig = new A.Rig({ seed: Date.now() & 0xffff });
+  const $ = (id) => document.getElementById(id);
+  const el = { body: $('body'), hat: $('hat'), gl: $('groove-l'), gr: $('groove-r'), el: $('eye-l'), er: $('eye-r'), grooves: $('grooves') };
+  let speed = 1, follow = false, pointer = null;
+
+  function setState(name) {
+    rig.setState(name);
+    document.querySelectorAll('#states [data-state]').forEach((b) => b.classList.toggle('on', b.dataset.state === name));
+  }
+  document.querySelectorAll('#states [data-state]').forEach((b) => b.onclick = () => setState(b.dataset.state));
+  $('blink').onclick = () => rig.blink();
+  $('auto').onchange = (e) => { rig.auto = e.target.checked; };
+  $('follow').onchange = (e) => { follow = e.target.checked; if (!follow) rig.gaze(0, 0); };
+  $('tilt').onchange = (e) => { rig.grokTilt = e.target.checked; rig.s.eyeTilt.set(e.target.checked ? 26 : (rig.state === 'thinking' ? 8 : 0)); };
+  $('slow').onchange = (e) => { speed = e.target.checked ? 0.25 : 1; };
+  $('onionT').onchange = (e) => { $('onion').setAttribute('opacity', e.target.checked ? 0.45 : 0); };
+  addEventListener('keydown', (e) => {
+    const m = { '1': 'idle', '2': 'wink', '3': 'thinking', '4': 'happy' };
+    if (m[e.key]) setState(m[e.key]);
+    if (e.key === 'b' || e.key === 'B') rig.blink();
+  });
+  $('stage').addEventListener('pointermove', (e) => {
+    const r = e.currentTarget.getBoundingClientRect();
+    pointer = { x: (e.clientX - r.left) / r.width - 0.5, y: (e.clientY - r.top) / r.height - 0.5 };
+  });
+  $('stage').addEventListener('pointerleave', () => { pointer = null; if (follow) rig.gaze(0, 0); });
+  // state buttons sync when auto-return fires (wink/happy → idle)
+  let lastState = rig.state;
+
+  let last = performance.now();
+  function tick(now) {
+    const dt = Math.min(0.05, (now - last) / 1000) * speed; last = now;
+    if (follow && pointer && rig.state !== 'thinking') rig.gaze(pointer.x * 30, pointer.y * 20);
+    rig.step(dt);
+    const fr = rig.frame();
+    el.body.setAttribute('transform', fr.body);
+    el.hat.setAttribute('d', fr.hat);
+    el.grooves.setAttribute('stroke-width', fr.grooveW);
+    el.gl.setAttribute('d', fr.grooves.left);
+    el.gr.setAttribute('d', fr.grooves.right);
+    el.el.setAttribute('d', fr.eyeL); el.el.setAttribute('transform', fr.eyeLT);
+    el.er.setAttribute('d', fr.eyeR); el.er.setAttribute('transform', fr.eyeRT);
+    if (rig.state !== lastState) { lastState = rig.state; document.querySelectorAll('#states [data-state]').forEach((b) => b.classList.toggle('on', b.dataset.state === rig.state)); }
+    const s = rig.s;
+    $('readout').textContent = `state ${rig.state}\ngaze ${s.gx.v.toFixed(1)}, ${s.gy.v.toFixed(1)}\nlids  L ${s.openL.v.toFixed(2)}  R ${s.openR.v.toFixed(2)}\ntilt ${s.tilt.v.toFixed(2)}°  squash ${s.sqx.v.toFixed(3)}×${s.sqy.v.toFixed(3)}`;
+    requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+  window.__rig = rig; window.__setState = setState;
+})();
+</script>
+</body>
+</html>

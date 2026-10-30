@@ -1,0 +1,26 @@
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": false}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": true, "credits_remaining": 852}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "caption_parse(creators)", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "comments", "pass": false, "error": "skipped (not wired; extra SC credit)"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "openrouter_text", "pass": false, "error": "skipped (caption not recipe-like)"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "openrouter_video_url", "pass": true, "http": 200, "ingredients": 15, "steps": 10, "title": "Bread Pockets", "sample": "capsicum, carrot, mayonnaise, pizza pasta sauce, oregano, chilli flakes, salt, cheese, butter, garlic powder, peri peri"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "RESULT", "pass": true, "result": "PARTIAL(AI video URL)", "seconds": 35.8, "sc_post_credits": 1, "sc_transcript_calls": 0, "openrouter_calls": 1}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "mushroom butter rice 🍚🧈 full recipe below @cuchenusainc ingredients - 1 cup jasm…", "has_video": true}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "caption_parse", "pass": true, "ingredients": 8, "steps": 4}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.3, "sc_post_credits": 0, "sc_transcript_calls": 0, "openrouter_calls": 0}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "bookmark this vegan ONE-POT CREAMY MUSHROOM RICE 🍚✨follow @healthygirlkitchen fo…", "has_video": false}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "caption_parse", "pass": true, "ingredients": 11, "steps": 6}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.6, "sc_post_credits": 0, "sc_transcript_calls": 0, "openrouter_calls": 0}
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "public_html", "pass": true, "http": 200, "bytes": 738577}
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "jsonld_recipe", "pass": true, "ingredients": 22, "steps": 30, "title": "Masala Dosa Recipe | Crispy Masale Dose | How to make Masala Dosa"}
+{"url": "https://www.hebbarskitchen.com/masala-dosa-recipe/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 0.2, "sc_post_credits": 0, "sc_transcript_calls": 0, "openrouter_calls": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": false}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "sc_post_keys", "pass": true, "keys": "comment_count,edge_media_preview_comment,edge_media_to_parent_comment,is_video,video_duration,video_play_count,video_url"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": true, "credits_remaining": 851}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "caption_parse(creators)", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "comments(sc_post)", "pass": false, "comments": 14, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "openrouter_text", "pass": false, "error": "skipped (caption not recipe-like)"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "openrouter_video_url", "pass": true, "http": 200, "ingredients": 12, "steps": 9, "title": "Bread Pockets", "sample": "capsicum, carrot, coriander, mayonnaise, pizza and pasta sauce, chilli flakes, salt, mozzarella cheese, butter, garlic p"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/", "stage": "RESULT", "pass": true, "result": "PARTIAL(AI video URL)", "seconds": 22.3, "sc_post_credits": 1, "sc_transcript_calls": 0, "openrouter_calls": 1}

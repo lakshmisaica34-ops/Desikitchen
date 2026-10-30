@@ -1,0 +1,84 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+html{background:#FFFFFF}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Inter,Roboto,sans-serif;background:#F1F1F3;color:#17171A;padding:36px 40px 40px;display:inline-block}
+.hdr{font-size:15px;color:#8A8A8E;letter-spacing:.02em;margin-bottom:6px}
+.ttl{font-size:26px;font-weight:700;margin-bottom:24px}
+.row{display:flex;gap:40px;align-items:flex-start}
+.col{display:flex;flex-direction:column;align-items:center;gap:14px}
+.tag{font-size:14px;font-weight:700;letter-spacing:.08em;padding:7px 14px;border-radius:999px}
+.tag.bad{background:#FDECEC;color:#B3261E} .tag.good{background:#EAF6EE;color:#3F8F6C} .tag.n{background:#fff;color:#17171A;border:1px solid #E8E8EA}
+.note{font-size:14px;color:#8A8A8E;max-width:410px;text-align:center;line-height:1.45}
+.cap{margin-top:26px;font-size:20px;font-weight:600;background:#fff;border:1px solid #E8E8EA;border-radius:16px;padding:14px 20px;display:inline-block}
+.cap b{color:#3F8F6C}
+.bezel{background:#17171A;padding:10px;border-radius:58px;box-shadow:0 20px 50px rgba(23,23,26,.18)}
+.phone{width:390px;height:844px;background:#fff;border-radius:48px;overflow:hidden;position:relative}
+.sb{height:50px;display:flex;justify-content:space-between;align-items:center;padding:8px 30px 0;font-size:15px;font-weight:600}
+.sb .r{display:flex;gap:6px;align-items:center}
+.notch{position:absolute;top:10px;left:50%;transform:translateX(-50%);width:120px;height:34px;background:#17171A;border-radius:20px;z-index:9}
+.pill{height:56px;border-radius:999px;background:#5BAF8A;color:#17171A;font-weight:700;font-size:17px;display:flex;align-items:center;justify-content:center;gap:8px}
+.opill{height:48px;border-radius:999px;background:#EAF6EE;border:1.5px solid #5BAF8A;color:#3F8F6C;font-weight:600;font-size:15px;display:flex;align-items:center;justify-content:center;gap:8px;padding:0 18px}
+.card{background:#fff;border:1px solid #E8E8EA;border-radius:24px;padding:16px;box-shadow:0 6px 20px rgba(23,23,26,.05)}
+.field{height:52px;border-radius:16px;background:#F3FAF6;border:1px solid #E8E8EA;display:flex;align-items:center;padding:0 16px;color:#8A8A8E;font-size:15px;gap:10px}
+.muted{color:#8A8A8E;font-size:14px}
+.tabs{position:absolute;left:0;right:0;bottom:0;height:92px;background:#fff;border-top:1px solid #E8E8EA;display:flex;justify-content:space-around;padding:10px 6px 0}
+.tab{display:flex;flex-direction:column;align-items:center;gap:5px;font-size:11px;color:#8A8A8E;width:72px}
+.tab .ic{width:56px;height:32px;border-radius:16px;display:flex;align-items:center;justify-content:center}
+.tab.on{color:#3F8F6C;font-weight:700} .tab.on .ic{background:#EAF6EE}
+.home{position:absolute;bottom:8px;left:50%;transform:translateX(-50%);width:134px;height:5px;border-radius:3px;background:#17171A}
+.food{position:relative;overflow:hidden}
+.chip{height:40px;border-radius:999px;display:flex;align-items:center;justify-content:center;font-size:15px;font-weight:600;flex:1}
+</style></head><body><div class="hdr">DesiKitchen · Soft UI proposal 03</div><div class="ttl">Import status pill — in progress and ready</div><div class="row">
+<div class="col"><div class="tag n">STATE 1 · IMPORTING</div><div class="bezel"><div class="phone"><div class="notch"></div><div class="sb"><span>9:41</span><span class="r"><svg width="18" height="12"><rect x="0" y="8" width="3" height="4" fill="#17171A"/><rect x="5" y="5" width="3" height="7" fill="#17171A"/><rect x="10" y="2" width="3" height="10" fill="#17171A"/><rect x="15" y="0" width="3" height="12" fill="#17171A"/></svg><svg width="26" height="12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="#17171A"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#17171A"/></svg></span></div><div style="padding:14px 22px 0">
+<div class="muted">Good evening</div>
+<div style="font-size:28px;font-weight:700;margin:2px 0 18px">What's the plan, Sai?</div>
+<div class="card">
+<div style="font-weight:600;font-size:16px;margin-bottom:12px">Import a recipe</div>
+<div class="field"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg> Paste a YouTube or Instagram link</div>
+<div class="pill" style="margin-top:12px;height:52px">Import</div></div>
+<div class="opill" style="margin-top:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3F8F6C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/></svg> Paste link from clipboard</div>
+<div class="muted" style="text-align:center;margin-top:12px">3 of 5 imports left this week</div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin:24px 0 12px"><div style="font-size:19px;font-weight:700">Recently saved</div><div style="color:#3F8F6C;font-weight:600;font-size:14px">See all</div></div>
+<div style="display:flex;gap:14px">
+<div style="flex:1"><div class="food" style="height:150px;background:linear-gradient(135deg,#F3D9A4,#E7B566);border-radius:20px;">
+<div style="position:absolute;width:117.0px;height:117.0px;border-radius:50%;background:#F7F1E6;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 10px 30px rgba(120,60,10,.25)"></div>
+<div style="position:absolute;width:86.58px;height:86.58px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#E9A93B,#D98E25);left:50%;top:50%;transform:translate(-50%,-50%)"></div>
+<div style="position:absolute;width:10.53px;height:10.53px;border-radius:50%;background:#6E9B4A;left:46%;top:44%"></div>
+<div style="position:absolute;width:8.190000000000001px;height:8.190000000000001px;border-radius:50%;background:#7FAE55;left:55%;top:52%"></div>
+<div style="position:absolute;width:7.02px;height:7.02px;border-radius:50%;background:#FFF6DC;left:43%;top:56%;opacity:.8"></div></div><div style="font-weight:600;margin-top:8px;font-size:15px">Dal tadka</div><div class="muted" style="font-size:13px">@ranveerbrar</div></div>
+<div style="flex:1"><div class="food" style="height:150px;background:linear-gradient(135deg,#F2C29A,#D9854C);border-radius:20px;">
+<div style="position:absolute;width:117.0px;height:117.0px;border-radius:50%;background:#F7F1E6;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 10px 30px rgba(120,60,10,.25)"></div>
+<div style="position:absolute;width:86.58px;height:86.58px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#C9652E,#A84E22);left:50%;top:50%;transform:translate(-50%,-50%)"></div>
+<div style="position:absolute;width:10.53px;height:10.53px;border-radius:50%;background:#6E9B4A;left:46%;top:44%"></div>
+<div style="position:absolute;width:8.190000000000001px;height:8.190000000000001px;border-radius:50%;background:#7FAE55;left:55%;top:52%"></div>
+<div style="position:absolute;width:7.02px;height:7.02px;border-radius:50%;background:#FFF6DC;left:43%;top:56%;opacity:.8"></div></div><div style="font-weight:600;margin-top:8px;font-size:15px">Paneer butter masala</div><div class="muted" style="font-size:13px">@hebbarskitchen</div></div></div>
+</div><div style="position:absolute;left:14px;right:14px;bottom:104px;background:#EAF6EE;border:1px solid #CFE8D9;border-radius:999px;padding:12px 18px 12px 12px;box-shadow:0 10px 28px rgba(23,23,26,.12)"><div style="display:flex;align-items:center;gap:12px"><div style="width:36px;height:36px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3F8F6C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg></div>
+<div style="flex:1"><div style="font-weight:600;font-size:15px">Importing from Instagram…</div>
+<div style="height:4px;border-radius:2px;background:#fff;margin-top:8px"><div style="width:58%;height:4px;border-radius:2px;background:#5BAF8A"></div></div></div>
+<div style="color:#3F8F6C;font-weight:700;font-size:14px;padding-left:4px">Cancel</div></div></div><div class="tabs"><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></div>Collections</div><div class="tab on"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3F8F6C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>Discover</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></div>Assistant</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg></div>Saved</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg></div>Profile</div></div><div class="home"></div></div></div><div class="note">Floating SoftSageFill pill above tabs. Thin SoftSage progress. Cancel any time. User can keep browsing.</div></div>
+<div class="col"><div class="tag good">STATE 2 · DONE</div><div class="bezel"><div class="phone"><div class="notch"></div><div class="sb"><span>9:41</span><span class="r"><svg width="18" height="12"><rect x="0" y="8" width="3" height="4" fill="#17171A"/><rect x="5" y="5" width="3" height="7" fill="#17171A"/><rect x="10" y="2" width="3" height="10" fill="#17171A"/><rect x="15" y="0" width="3" height="12" fill="#17171A"/></svg><svg width="26" height="12"><rect x=".5" y=".5" width="22" height="11" rx="3" fill="none" stroke="#17171A"/><rect x="2" y="2" width="17" height="8" rx="1.5" fill="#17171A"/></svg></span></div><div style="padding:14px 22px 0">
+<div class="muted">Good evening</div>
+<div style="font-size:28px;font-weight:700;margin:2px 0 18px">What's the plan, Sai?</div>
+<div class="card">
+<div style="font-weight:600;font-size:16px;margin-bottom:12px">Import a recipe</div>
+<div class="field"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/></svg> Paste a YouTube or Instagram link</div>
+<div class="pill" style="margin-top:12px;height:52px">Import</div></div>
+<div class="opill" style="margin-top:14px"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3F8F6C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="4" width="12" height="17" rx="2"/><rect x="9" y="2" width="6" height="4" rx="1"/></svg> Paste link from clipboard</div>
+<div class="muted" style="text-align:center;margin-top:12px">3 of 5 imports left this week</div>
+<div style="display:flex;justify-content:space-between;align-items:baseline;margin:24px 0 12px"><div style="font-size:19px;font-weight:700">Recently saved</div><div style="color:#3F8F6C;font-weight:600;font-size:14px">See all</div></div>
+<div style="display:flex;gap:14px">
+<div style="flex:1"><div class="food" style="height:150px;background:linear-gradient(135deg,#F3D9A4,#E7B566);border-radius:20px;">
+<div style="position:absolute;width:117.0px;height:117.0px;border-radius:50%;background:#F7F1E6;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 10px 30px rgba(120,60,10,.25)"></div>
+<div style="position:absolute;width:86.58px;height:86.58px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#E9A93B,#D98E25);left:50%;top:50%;transform:translate(-50%,-50%)"></div>
+<div style="position:absolute;width:10.53px;height:10.53px;border-radius:50%;background:#6E9B4A;left:46%;top:44%"></div>
+<div style="position:absolute;width:8.190000000000001px;height:8.190000000000001px;border-radius:50%;background:#7FAE55;left:55%;top:52%"></div>
+<div style="position:absolute;width:7.02px;height:7.02px;border-radius:50%;background:#FFF6DC;left:43%;top:56%;opacity:.8"></div></div><div style="font-weight:600;margin-top:8px;font-size:15px">Dal tadka</div><div class="muted" style="font-size:13px">@ranveerbrar</div></div>
+<div style="flex:1"><div class="food" style="height:150px;background:linear-gradient(135deg,#F2C29A,#D9854C);border-radius:20px;">
+<div style="position:absolute;width:117.0px;height:117.0px;border-radius:50%;background:#F7F1E6;left:50%;top:50%;transform:translate(-50%,-50%);box-shadow:0 10px 30px rgba(120,60,10,.25)"></div>
+<div style="position:absolute;width:86.58px;height:86.58px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#C9652E,#A84E22);left:50%;top:50%;transform:translate(-50%,-50%)"></div>
+<div style="position:absolute;width:10.53px;height:10.53px;border-radius:50%;background:#6E9B4A;left:46%;top:44%"></div>
+<div style="position:absolute;width:8.190000000000001px;height:8.190000000000001px;border-radius:50%;background:#7FAE55;left:55%;top:52%"></div>
+<div style="position:absolute;width:7.02px;height:7.02px;border-radius:50%;background:#FFF6DC;left:43%;top:56%;opacity:.8"></div></div><div style="font-weight:600;margin-top:8px;font-size:15px">Paneer butter masala</div><div class="muted" style="font-size:13px">@hebbarskitchen</div></div></div>
+</div><div style="position:absolute;left:14px;right:14px;bottom:104px;background:#EAF6EE;border:1px solid #CFE8D9;border-radius:999px;padding:12px 18px 12px 12px;box-shadow:0 10px 28px rgba(23,23,26,.12)"><div style="display:flex;align-items:center;gap:12px"><div style="width:36px;height:36px;border-radius:50%;background:#5BAF8A;display:flex;align-items:center;justify-content:center"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#17171A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></div>
+<div style="flex:1"><div style="font-weight:600;font-size:15px">Recipe ready</div><div class="muted" style="font-size:13px">Dal makhani · from Instagram</div></div>
+<div style="background:#5BAF8A;color:#17171A;font-weight:700;font-size:14px;height:36px;padding:0 16px;border-radius:999px;display:flex;align-items:center">Review</div></div></div><div class="tabs"><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></div>Collections</div><div class="tab on"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3F8F6C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></div>Discover</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4z"/></svg></div>Assistant</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg></div>Saved</div><div class="tab "><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8A8A8E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg></div>Profile</div></div><div class="home"></div></div></div><div class="note">Same pill flips to "Recipe ready". Review opens the recipe.</div></div></div><div><div class="cap">Import status: <b>floating pill</b>, not a blocking screen</div></div></body></html>

@@ -1,0 +1,25 @@
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "ig_embed", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": false}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "caption_parse", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "Mere sth sth ghrwale bhi chatore ho gye h😏 Follow- @_small_home_kitchen_ #trendi…", "has_video": true, "credits_remaining": 857}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "caption_parse(creators)", "pass": false, "ingredients": 0, "steps": 0}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "scrapecreators_ig_transcript", "pass": true, "http": 200, "chars": 1708, "credits_remaining": 856}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "openrouter_text", "pass": true, "http": 200, "ingredients": 15, "steps": 11}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "openrouter_video_url", "pass": true, "http": 200, "ingredients": 14, "steps": 9}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "video_download", "pass": false, "http": 200, "error": "video > 8 MB cap"}
+{"url": "https://www.instagram.com/reel/Ddk4k1PoM-k/?xtok=MWtndzhiaWoxcWhzaQ==", "stage": "RESULT", "pass": true, "result": "PARTIAL(AI caption+transcript)", "seconds": 35.1}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "mushroom butter rice 🍚🧈 full recipe below @cuchenusainc ingredients - 1 cup jasm…", "has_video": true}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "caption_parse", "pass": true, "ingredients": 8, "steps": 4}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "mushroom butter rice 🍚🧈 full recipe below @cuchenusainc ingredients - 1 cup jasm…", "has_video": true, "credits_remaining": 872}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "caption_parse(creators)", "pass": true, "ingredients": 8, "steps": 4}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "openrouter_text", "pass": true, "http": 200, "ingredients": 8, "steps": 4, "title": "mushroom butter rice"}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "video_download", "pass": true, "http": 200, "mb": 6.02}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "openrouter_video", "pass": true, "http": 200, "ingredients": 8, "steps": 4, "title": "Mushroom Butter Rice"}
+{"url": "https://www.instagram.com/reel/DF6dMW5vwgw/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 13.9}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "ig_embed", "pass": true, "http": 200, "caption": "bookmark this vegan ONE-POT CREAMY MUSHROOM RICE 🍚✨follow @healthygirlkitchen fo…", "has_video": false}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "caption_parse", "pass": true, "ingredients": 11, "steps": 6}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "scrapecreators_post", "pass": true, "http": 200, "caption": "bookmark this vegan ONE-POT CREAMY MUSHROOM RICE 🍚✨follow @healthygirlkitchen fo…", "has_video": true, "credits_remaining": 871}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "caption_parse(creators)", "pass": true, "ingredients": 11, "steps": 6}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "openrouter_text", "pass": true, "http": 200, "ingredients": 11, "steps": 5, "title": "ONE-POT CREAMY MUSHROOM RICE"}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "video_download", "pass": true, "http": 200, "mb": 7.31}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "openrouter_video", "pass": true, "http": 200, "ingredients": 11, "steps": 5, "title": "ONE-POT CREAMY MUSHROOM RICE"}
+{"url": "https://www.instagram.com/reel/CcOkDyrpHkD/", "stage": "RESULT", "pass": true, "result": "FULL", "seconds": 14.4}

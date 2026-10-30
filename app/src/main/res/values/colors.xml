@@ -1,0 +1,7 @@
+<resources>
+    <color name="saffron">#FFE07A10</color>
+    <color name="cream">#FFFFF8EC</color>
+    <color name="canvas">#FFFFFFFF</color>
+    <!-- Launcher background: Canvas white (Ink D-with-fork foreground; palette 2026-10-30 never fills the mark) -->
+    <color name="ic_launcher_background">#FFFFFFFF</color>
+</resources>

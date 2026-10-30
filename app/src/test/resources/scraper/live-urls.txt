@@ -1,0 +1,20 @@
+# One public recipe URL per line. Lines not starting with http are ignored.
+https://hebbarskitchen.com/paneer-butter-masala-recipe/
+https://www.indianhealthyrecipes.com/paneer-butter-masala-restaurant-style/
+https://www.cookwithmanali.com/paneer-butter-masala/
+https://www.ministryofcurry.com/paneer-butter-masala/
+https://ranveerbrar.com/recipes/paneer-butter-masala/
+https://www.sanjeevkapoor.com/Recipe/Paneer-Makhani.html
+https://www.chefkunalkapur.com/recipe/paneer-butter-masala/
+https://www.sharmispassions.com/paneer-butter-masala-recipe/
+https://www.pipingpotcurry.com/instant-pot-dal-tadka/
+https://www.teaforturmeric.com/chana-masala/
+https://www.myfoodstory.com/dal-makhani/
+https://www.madhurasrecipe.com/paneer-butter-masala/
+https://www.tarladalal.com/paneer-makhani-1622r
+https://www.allrecipes.com/recipe/212721/indian-chicken-curry-murgh-kari/
+https://www.bbcgoodfood.com/recipes/chicken-tikka-masala
+https://www.simplyrecipes.com/recipes/chana_masala/
+https://www.bonappetit.com/recipe/chana-masala
+https://www.vegrecipesofindia.com/paneer-butter-masala/
+https://www.instagram.com/p/example/

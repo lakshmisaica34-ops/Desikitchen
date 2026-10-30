@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cold-start window background: white canvas + centred ink D-with-fork mark, so the first frame is never blank. -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/canvas" />
+    <item android:gravity="center" android:width="96dp" android:height="96dp" android:drawable="@drawable/splash_d_mark" />
+</layer-list>

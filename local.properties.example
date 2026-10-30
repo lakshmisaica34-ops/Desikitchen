@@ -1,0 +1,4 @@
+# Copy to local.properties (git-ignored). Placeholder values only — never commit real secrets.
+CREATORS_API_URL=https://api.scrapecreators.com/v1
+CREATORS_API_KEY=your-scrape-creators-api-key
+OPENROUTER_API_KEY=sk-or-your-openrouter-key

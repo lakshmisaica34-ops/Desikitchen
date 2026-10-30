@@ -1,0 +1,3 @@
+{"url": "https://www.instagram.com/reel/DeH0TduS8lG/?srtk=amp0d3ZkZWVudmNr", "stage": "s1_ig_embed", "pass": true, "http": 200, "caption": "Stop buying store-bought jam! 🛑 Sirf 3 ingredients se ghar par banao market se b…", "has_video": false}
+{"url": "https://www.instagram.com/reel/DeH0TduS8lG/?srtk=amp0d3ZkZWVudmNr", "stage": "s1_caption_parse", "pass": true, "ingredients": 5, "steps": 4, "seconds": 0.39}
+{"url": "https://www.instagram.com/reel/DeH0TduS8lG/?srtk=amp0d3ZkZWVudmNr", "stage": "RESULT", "pass": true, "result": "FULL(stage1 caption)", "seconds": 0.4, "sc_post_credits": 0, "sc_transcript_calls": 0, "openrouter_calls": 0, "stage_seconds": {"1_public_html": 0.39}, "recipe": {"title": null, "ingredients_count": 5, "steps_count": 4}}

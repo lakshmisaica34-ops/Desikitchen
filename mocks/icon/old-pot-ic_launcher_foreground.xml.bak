@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple handi (cooking pot) with steam, drawn for DesiKitchen -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- steam -->
+    <path android:strokeColor="#FFFFF8EC" android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M44,30 C40,35 48,38 44,43" />
+    <path android:strokeColor="#FFFFF8EC" android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M54,27 C50,32 58,35 54,40" />
+    <path android:strokeColor="#FFFFF8EC" android:strokeWidth="3.5" android:strokeLineCap="round"
+        android:pathData="M64,30 C60,35 68,38 64,43" />
+    <!-- lid rim -->
+    <path android:fillColor="#FF1F5E3B"
+        android:pathData="M30,50 L78,50 Q80,50 80,52 L80,54 Q80,56 78,56 L30,56 Q28,56 28,54 L28,52 Q28,50 30,50 Z" />
+    <!-- pot body -->
+    <path android:fillColor="#FFFFF8EC"
+        android:pathData="M32,56 L76,56 Q78,72 66,80 L42,80 Q30,72 32,56 Z" />
+    <!-- handles -->
+    <path android:fillColor="#FF1F5E3B"
+        android:pathData="M24,58 L32,58 L32,63 L24,63 Q22,60.5 24,58 Z" />
+    <path android:fillColor="#FF1F5E3B"
+        android:pathData="M76,58 L84,58 Q86,60.5 84,63 L76,63 Z" />
+    <!-- band -->
+    <path android:fillColor="#FFF2B705"
+        android:pathData="M33,63 L75,63 L74.4,67 L33.6,67 Z" />
+</vector>

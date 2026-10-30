@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  DesiKitchen avatar — vector trace of desikitchen-mark-final.png (IoU 0.976 vs the PNG).
+  Coordinates = source PNG pixel space; viewBox is a 600x600 square centred on the mark.
+  Rig layers (animate these by id):
+    #body      group  — squash / stretch / tilt / hop, anchored at (724,730)
+    #hat       path   — white chef hat, house (roof + chimney) is a true cut-out (no mask)
+    #groove-l/#groove-r  black pleat strokes on the centre puff
+    #eye-l/#eye-r  white arched windows = the eyes (independent, blink/gaze/wink)
+  Procedural version (live morph): desikitchen-avatar-core.js → DKAvatar.hatPath()/eyePath().
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="424 216 600 600" width="1024" height="1024">
+  <rect id="bg" x="424" y="216" width="600" height="600" fill="#000"/>
+  <g id="body">
+    <path id="hat" fill="#fff" d="M556 625L556 502.11A100.5 100.5 0 0 1 651.71 326.11A107 107 0 0 1 796.29 326.11A100.5 100.5 0 0 1 893 501.45L893 625Q893 632 886 632L883.99 632Q876.99 632 871.58 627.56L841.16 602.63Q840 601.68 840 600.18L840 510.5Q840 509 838.5 509L799.5 509Q798 509 798 510.5L798 561.25Q798 567.25 793.36 563.44L731.46 512.71Q724.5 507 717.54 512.71L577.42 627.56Q572.01 632 565.01 632L563 632Q556 632 556 628.5L556 625Z"/>
+    <g id="grooves" fill="none" stroke="#000" stroke-width="6.5" stroke-linecap="round">
+      <path id="groove-l" d="M649.34 323.53A110.5 110.5 0 0 0 617.65 435"/>
+      <path id="groove-r" d="M798.66 323.53A110.5 110.5 0 0 1 827.01 445"/>
+    </g>
+    <g id="eyes" fill="#fff">
+      <path id="eye-l" d="M630 675C630 658.98 642.98 646 659 646C675.02 646 688 658.98 688 675L688 725Q688 731 682 731C667.7 731 650.3 731 636 731Q630 731 630 725Z"/>
+      <path id="eye-r" d="M762 675C762 658.98 774.98 646 791 646C807.02 646 820 658.98 820 675L820 725Q820 731 814 731C799.7 731 782.3 731 768 731Q762 731 762 725Z"/>
+    </g>
+  </g>
+</svg>

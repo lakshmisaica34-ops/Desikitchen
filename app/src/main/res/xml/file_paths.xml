@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Camera captures for "Scan a recipe" and recipe photos -->
+    <cache-path name="camera" path="camera/" />
+    <!-- Exported recipe PDFs / shopping list -->
+    <cache-path name="exports" path="exports/" />
+</paths>
